@@ -107,18 +107,31 @@ iframe {
     background-color: #FAF8F3;
 }
 
+.slide {
+    background-color: #171719;
+}
+.carousel {
+    width: 55em;
+}
+
+
+span .navbar-toggler-icon {
+    color: #171719!important;
+}
+
 
 
 .img {
-    width: 10em;
+    width: 20em;
     padding: 0;
     margin: 0;
     margin-bottom: 3em;
 }
 
 
-.perso .col {
+.perso {
     padding: 0;
+    
 }
 
 
@@ -149,14 +162,22 @@ iframe {
     margin-bottom: 1em;
 }
 
+.pp {
+    font-family: TEKO;
+    font-weight: bold;
+    text-align: center;
+    color: #FAF8F3;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
 
 /*CONTACT*/
 #cont {
     background-image: url(/cont.jpg);
-    background-size: cover;
+    ackground-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-}
+}b
 
 
 
@@ -287,4 +308,33 @@ body {
     .imgJeu2 img:hover {
         opacity: 0.6;
     }
+}
+
+#aprop {
+    background-image: url(accueil1.png);
+    ackground-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.hey {
+    text-align: center;
+    font-family: teko;
+    color: #FAF8F3;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.about {
+    text-align: center;
+    font-family: roboto;
+    color: #FAF8F3;
+    font-weight: ;
+    font-size: 1em;
+
+}
+
+.apropcontent {
+    margin-top: 15em;
+  
 }
