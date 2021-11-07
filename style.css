@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Teko:wght@400;500;700&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #171719;
+    
+}
+
+#svg {
+    width: 2.5em;
+    position: relative;
+    bottom: 0.70em;
+}
+
+#png {
+    width: 15em;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #FAF8F3;
+    font-family: Teko;
+    font-weight: 500;
+    margin-right: 1.5em;
+}
+
+.nav-link:hover {
+    color: #A48B58;
+}
+
+.active {
+    color: #A48B58!important;
+    font-weight: bold;
+}
+
+/** histoire **/
+
+#histoire {
+    background-image: url(accueil2.png);
+    background-repeat: no-repeat;
+    background-size: 100;
+    background-position: top;
+
+}
+.hist-link {
+    text-decoration: none;
+    color: #171719;
+    font-family: Teko;
+    font-weight: 500;
+    margin-right: 1.5em;
+}
+
+#h1 {
+    font-family: teko;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+    color: #171719;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    border-radius: 9px;
+}
+
+#h {
+    font-family: teko;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    color: #A48B58;
+}
+
+#p1 {
+    color: #FAF8F3;
+    font-family: roboto;
+    font-size: 13px;
+    margin-bottom: 5em;
+}
+
+
+.p2 {
+    
+    font-family: roboto;
+    font-weight: lighter;
+    margin-top: 0.7em;
+}
+
+
+/** revenir sur histoire pour responsive**/
+
+#perso {
+    background-color: #FAF8F3;
+}
+
+
+
+.img {
+    width: 10em;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3em;
+}
+
+
+.perso .col {
+    padding: 0;
+}
+
+
+.desc {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+    font-weight: 400;
+    color: #171719;
+    font-size: 0.9em;
+}
+
+
+.hperso {
+    font-family: teko;
+    font-weight: bold;
+    color: #A48B58;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+#pp {
+    font-family: TEKO;
+    font-weight: bold;
+    text-align: center;
+    color: #171719;
+    margin-bottom: 1em;
+}
+
+
+/*CONTACT*/
+#cont {
+    background-image: url(/cont.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+
+label {
+    font-family: Roboto;
+    font-weight: bold;
+    color: #171719;
+}
+
+#h2 {
+    font-family: TEKO;
+    color: #171719;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #A48B58;
+}
+
+
+body {
+    position: relative;
+    min-height: 100%;
+}
+
+.contform {
+    width: 40em;
+    margin-top: 3em;
+}
+
+
+
+@media only screen and (min-width: 392px) {
+
+    .intimg {
+        display: none;
+    }
+    
+    .accimg {
+        width: 15em;
+        border-radius: 18px;
+        margin: 0.3em;
+    }
+    
+    .imgJeu {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+    }
+    
+    
+    
+    .imgJeu img {
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+    }
+      
+    .imgJeu img:hover {
+        opacity: 0.6;
+    }
+
+}
+
+.intimg {
+    display: none;
+}
+
+.accimg {
+    width: 25em;
+    border-radius: 18px;
+    margin: 0.3em;
+}
+
+.imgJeu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+.imgJeu img {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+  
+.imgJeu img:hover {
+    opacity: 0.6;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    .accimg {
+        display: none;
+    }
+
+    .imgJeu2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 5.5em;
+    }
+
+    .intimg {
+        display: grid;
+        width: 18em;
+        margin: 0.3em;
+    }
+
+    .imgJeu2 img {
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+    }
+      
+    .imgJeu2 img:hover {
+        opacity: 0.6;
+    }
+}
